@@ -3,7 +3,6 @@
 ```mermaid
 flowchart BT
 
-flowchart BT
 
     DCC013[DCC013\nEst. Dados I]
     DCC013 ==> DCC198
