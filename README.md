@@ -116,7 +116,7 @@ subgraph 4o Período
 end
 
 subgraph 5o Período
-    DCC192[DCC192\nLP Sist. Web I\n(Backend)]
+    DCC192[DCC192\nLP Sist. Web I\nbackend]
     DCC192 ==> DCC121
     DCC192 ==> DCC025
     DCC192 -.-> SpringBoot([SpringBoot])
@@ -126,7 +126,7 @@ subgraph 5o Período
 end
 
 subgraph 6o Período
-    DCC193[DCC193\nLP Sist. Web II\n(Frontend)]
+    DCC193[DCC193\nLP Sist. Web II\nfrontend]
     DCC193 ==> DCC121
     DCC193 ==> DCC025
     DCC193 -.-> NodeJS([NodeJS])
