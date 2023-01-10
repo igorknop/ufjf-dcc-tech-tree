@@ -103,6 +103,10 @@ subgraph 3o Período
     DCC138[DCC138\nTópicos LP]
     DCC138 ==> DCC199
     DCC138 -.-> JS
+
+    DCC025[DCC025\nOrientação\na Objetos]
+    DCC025 ==> DCC199
+    DCC025 -.-> Python
 end
 
 subgraph 4o Período
@@ -110,12 +114,6 @@ subgraph 4o Período
     DCC012 ==> DCC013
     DCC012 -.-> CPP
 
-    DCC025[DCC025\nOrientação\na Objetos]
-    DCC025 ==> DCC013
-    DCC025 -.-> Python
-end
-
-subgraph 5o Período
     DCC192[DCC192\nLP Sist. Web I\nbackend]
     DCC192 ==> DCC121
     DCC192 ==> DCC025
@@ -123,9 +121,7 @@ subgraph 5o Período
     DCC192 -.-> JavaScript
     DCC192 -.-> CSS
     DCC192 -.-> HTML
-end
 
-subgraph 6o Período
     DCC193[DCC193\nLP Sist. Web II\nfrontend]
     DCC193 ==> DCC121
     DCC193 ==> DCC025
@@ -133,17 +129,23 @@ subgraph 6o Período
     DCC193 -.-> ReactJS([ReactJS])
 end
 
-subgraph 7o Período
-DCC195[DCC195\nLP Tendências]
+subgraph 5o Período
+    DCC196[DCC196\nLP Disp. Móveis]
+    DCC196 ==> DCC193
+    DCC196 -.-> ReactNative([ReactNative])
+end
+
+subgraph 6o Período
+    DCC195[DCC195\nLP Tendências]
     DCC195 ==> DCC192
     DCC195 ==> DCC193
     DCC195 -.-> Outra
 end
 
+subgraph 7o Período
+end
+
 subgraph 8o Período
-    DCC196[DCC196\nLP Disp. Móveis]
-    DCC196 ==> DCC193
-    DCC196 -.-> ReactNative([ReactNative])
 end
 
 
