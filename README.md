@@ -148,5 +148,5 @@ end
 
 
     classDef tech fill:#cfc,stroke:#333,stroke-width:1px
-    class Python,Outra,ReactNative,C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,SpringBoot,ReactJS tech;
+    class Python,JavaScript,ReactNative,C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,SpringBoot,ReactJS,Outra tech;
 ```
