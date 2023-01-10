@@ -43,9 +43,13 @@ subgraph 5o Período
     DCC192==> DCC121
     DCC192==> DCC025
     DCC192 -.-> Java
+    DCC192 -.-> Servlets([Servlets])
     DCC192 -.-> JSP([JSP])
     DCC192 -.-> HTML
     DCC192 -.-> CSS
+
+    DCC061[Eng.Soft.]
+
 end
 
 subgraph 6o Período
@@ -56,11 +60,20 @@ subgraph 6o Período
 end
 
 subgraph 7o Período
-DCC195[DCC195\nLP Tendências]
+    DCC195[DCC195\nLP Tendências]
     DCC195 ==> DCC192
     DCC195 -.-> JS
     DCC195 -.-> NodeJS([NodeJS])
     DCC195 -.-> ReactJS([ReactJS])
+
+    DCC168[DCC168\n Teste .Soft.]
+    DCC168 ==> DCC061
+    DCC168 -.-> Java
+
+
+    DCC078[DCC078\nAspectos Eng.Soft.]
+    DCC078 ==> DCC061[Eng.Soft.]
+    DCC078 -.-> Java
 end
 
 subgraph 8o Período
@@ -72,6 +85,6 @@ end
 
 
     classDef tech fill:#cfc,stroke:#333,stroke-width:1px
-    class C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,SpringBoot,ReactJS tech;
+    class C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,Servlets,SpringBoot,ReactJS tech;
 ```
 
