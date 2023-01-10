@@ -53,8 +53,6 @@ subgraph 6o Período
     DCC193 ==> DCC192
     DCC193 -.-> Java([Java])
     DCC193 -.-> SpringBoot([SpringBoot])
-
-
 end
 
 subgraph 7o Período
@@ -78,17 +76,18 @@ end
 ```
 
 # Sistemas de Informação matriz 202X (Sugestão 1: Marco Antônio)
+
 ```mermaid
 flowchart RL
 subgraph 1o Período
     DCC199[DCC199\nAlgoritmos]
-    DCC199 -.->Python([Python])
+    DCC199 -.-> Python([Python])
 end
 
 subgraph 2o Período
     DCC198[DCC198\nAlgoritmos II]
     DCC198 ==> DCC199
-    DCC198 -.->CPP(C++)
+    DCC198 -.-> CPP(C++)
 
     DCC121[DCC121\nLP WebSites]
     DCC121 -.-> JS([JavaScript])
@@ -118,8 +117,8 @@ end
 
 subgraph 5o Período
     DCC192[DCC192\nLP Sist. Web I\n(Backend)]
-    DCC192==> DCC121
-    DCC192==> DCC025
+    DCC192 ==> DCC121
+    DCC192 ==> DCC025
     DCC192 -.-> SpringBoot([SpringBoot])
     DCC192 -.-> JavaScript
     DCC192 -.-> CSS
@@ -128,8 +127,8 @@ end
 
 subgraph 6o Período
     DCC193[DCC193\nLP Sist. Web II\n(Frontend)]
-    DCC192==> DCC121
-    DCC192==> DCC025
+    DCC193 ==> DCC121
+    DCC193 ==> DCC025
     DCC193 -.-> NodeJS([NodeJS])
     DCC193 -.-> ReactJS([ReactJS])
 end
@@ -138,7 +137,7 @@ subgraph 7o Período
 DCC195[DCC195\nLP Tendências]
     DCC195 ==> DCC192
     DCC195 ==> DCC193
-    DCC195 -.-> ?
+    DCC195 -.-> Outra
 end
 
 subgraph 8o Período
@@ -149,5 +148,5 @@ end
 
 
     classDef tech fill:#cfc,stroke:#333,stroke-width:1px
-    class Python,,ReactNative,C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,SpringBoot,ReactJS tech;
+    class Python,Outra,ReactNative,C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,SpringBoot,ReactJS tech;
 ```
