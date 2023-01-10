@@ -62,6 +62,7 @@ DCC195[DCC195\nLP Tendências]
     DCC195 ==> DCC192
     DCC195 -.-> JS
     DCC195 -.-> NodeJS([NodeJS])
+    DCC195 -.-> ReactJS([ReactJS])
 end
 
 subgraph 8o Período
@@ -73,6 +74,6 @@ end
 
 
     classDef tech fill:#cfc,stroke:#333,stroke-width:1px
-    class C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,SpringBoot tech;
+    class C,CPP,HTML,CSS,JS,NodeJS,Java,JSP,SpringBoot,ReactJS tech;
 ```
 
